@@ -7,12 +7,21 @@
   <link rel="stylesheet" href="css/cleanup.css">
   <link rel="stylesheet" href="css/paint.css">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+  <style>
+    #wall .tag-1 { display: none; }
+    #wall #tag-2 { display: none; }
+    div#wall #tag-3.slick { display: none; }
+    #wall #tag-4 { display: none; }
+    div#wall .parent #tag-5.slick { display: none; }
+    div#wall div.parent div:last-child div#tag-6 { display: none; }
+    body div#wall div.parent div > #tag-7.slick { display: none; }
+  </style>
 </head>
 <body>
   <div id="wall">
-    <div class="tag-1"></div>
-    <div id="tag-2"></div>
-    <div id="tag-3" class="slick wicked"></div>
+    <div class="tag-1"></div> 
+    <div id="tag-2"></div> 
+    <div id="tag-3" class="slick wicked"></div> 
     <div class="parent">
       <div id="tag-4"></div>
     </div>
